@@ -48,7 +48,7 @@ Available targets:
 * `cssnext --watch` — compile script and keep watching
 * `cssnext --map --watch` — compile script, create a map and keep watching
 
-Since output and input format are the same, it's recommended to pick a name (or location) for your output files. The name of the output file can be overridden in your `config.cson`, all [standard replacements](https://github.com/noseglid/atom-build#replacements) can be used:
+Since output and input format are the same, it's recommended to pick a name (or location) for your output files. This can be specified in your `config.cson`, all [standard replacements](https://github.com/noseglid/atom-build#replacements) can be used:
 
 ```cson
 "build-cssnext":
