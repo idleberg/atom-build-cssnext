@@ -38,8 +38,8 @@ $ git clone https://github.com/idleberg/atom-build-cssnext build-cssnext
 Install Node dependencies:
 
 ```bash
-cd build-cssnext
-npm install
+$ cd build-cssnext
+$ npm install
 ```
 
 ## Usage
