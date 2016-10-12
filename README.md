@@ -35,10 +35,9 @@ Clone repository as `build-cssnext`:
 $ git clone https://github.com/idleberg/atom-build-cssnext build-cssnext
 ```
 
-Install Node dependencies:
+Inside the cloned directory, install Node dependencies:
 
 ```bash
-$ cd build-cssnext
 $ yarn || npm install
 ```
 
