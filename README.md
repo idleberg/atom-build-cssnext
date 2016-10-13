@@ -17,7 +17,7 @@ Install `build-cssnext` from Atom's [Package Manager](http://flight-manual.atom.
 
 `$ apm install build-cssnext`
 
-### GitHub
+### Using Git
 
 Change to your Atom packages directory:
 
