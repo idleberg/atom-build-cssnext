@@ -1,6 +1,6 @@
 {
   "name": "build-cssnext",
-  "version": "0.2.11",
+  "version": "0.3.0",
   "description": "Atom Build provider for postcss-cssnext, compiles cssnext",
   "repository": {
     "type": "git",
