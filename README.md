@@ -3,9 +3,8 @@
 [![apm](https://img.shields.io/apm/l/build-cssnext.svg?style=flat-square)](https://atom.io/packages/build-cssnext)
 [![apm](https://img.shields.io/apm/v/build-cssnext.svg?style=flat-square)](https://atom.io/packages/build-cssnext)
 [![apm](https://img.shields.io/apm/dm/build-cssnext.svg?style=flat-square)](https://atom.io/packages/build-cssnext)
-[![Travis](https://img.shields.io/travis/idleberg/atom-build-cssnext.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-cssnext)
+[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/atom-build-cssnext)](https://circleci.com/gh/idleberg/atom-build-cssnext)
 [![David](https://img.shields.io/david/idleberg/atom-build-cssnext.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-cssnext)
-[![David](https://img.shields.io/david/dev/idleberg/atom-build-cssnext.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-cssnext?type=dev)
 
 [Atom Build](https://atombuild.github.io/) provider for `postcss-cssnext`, compiles cssnext. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
 
@@ -21,12 +20,16 @@ Install `build-cssnext` from Atom's [Package Manager](http://flight-manual.atom.
 
 Change to your Atom packages directory:
 
-```bash
-# Windows
-$ cd %USERPROFILE%\.atom\packages
+**Windows**
 
-# Linux & macOS
-$ cd ~/.atom/packages/
+```powershell
+# Powershell
+$ cd $Env:USERPROFILE\.atom\packages
+```
+
+```cmd
+:: Command Prompt
+$ cd %USERPROFILE%\.atom\packages
 ```
 
 Clone repository as `build-cssnext`:
@@ -83,4 +86,4 @@ Here's a reminder of the default shortcuts you can use with this package:
 
 ## License
 
-This work is licensed under the [The MIT License](LICENSE.md).
+This work is licensed under the [The MIT License](LICENSE).
