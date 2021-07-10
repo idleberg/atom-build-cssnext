@@ -1,7 +1,7 @@
 import { configSchema, getConfig } from './config';
 import { satisfyDependencies } from 'atom-satisfy-dependencies';
 import Logger from './log';
-import meta from '../package.json';
+import { name } from '../package.json';
 import which from 'which';
 
 export { configSchema as config };
@@ -17,7 +17,7 @@ export function provideBuilder() {
     }
 
     isEligible() {
-      if (atom.config.get(meta.name + '.alwaysEligible') === true) {
+      if (atom.config.get(name + '.alwaysEligible') === true) {
         return true;
       }
 
@@ -87,7 +87,7 @@ export function activate() {
 
   // This package depends on build, make sure it's installed
   if (getConfig('manageDependencies') === true) {
-    satisfyDependencies(meta.name);
+    satisfyDependencies(name);
   }
 }
 
